@@ -8,7 +8,7 @@
 #>
 
 # Caminho do relatório central
-$Relatorio = "\\FSRCTRPPW01\relatorio$\Status_Firewall.csv"
+$Relatorio = "\\SERVIDOR\relatorio$\Status_Firewall.csv"
 
 # Inicializa variáveis
 $DomainStatus = $PrivateStatus = $PublicStatus = $StatusGeral = "Erro"
