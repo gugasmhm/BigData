@@ -1,12 +1,3 @@
-<#
-.SYNOPSIS
-    Verifica o status do Windows Firewall (Domain, Private, Public).
-    Caso não consiga coletar via CIM, faz fallback para Win32_FirewallProduct.
-    Gera ou atualiza relatório central em \\FSRCTRPPW01\relatorio$\Status_Firewall.csv
-.DESCRIPTION
-    Ideal para execução via "Run Script" do SCCM em contexto SYSTEM.
-#>
-
 # Caminho do relatório central
 $Relatorio = "\\SERVIDOR\relatorio$\Status_Firewall.csv"
 
